@@ -1,3 +1,45 @@
-main {
+body {
     background-color: #f9f7fe;
+    font-family: "Roboto", sans-serif;
+}
+
+.project {
+    max-width: 45%;
+    background-color: white;
+    margin: 45px auto;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+header {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f9f7fe;
+}
+
+#form-input {
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+#form-submit {
+    background: #885df1;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    margin-left: 5px;
+    border-radius: 6px;
+    color: white;
+}
+
+footer {
+    padding-top: 30px;
+    border-top: 1px solid #f9f7fe;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
 }
