@@ -19,7 +19,7 @@
     <body>
         <div class="project">
             <header>
-                <form>
+                <form id="search-form">
                     <input type="text" placeholder="Enter a city.." id="form-input">
                     <input type="submit" value="Submit" id="form-submit">
                 </form>
@@ -27,23 +27,21 @@
             <main>
                 <div class="details">
                     <div>
-                        <h1 class="city">Paris</h1>
+                        <h1 class="city" id="city"></h1>
                         <p class="city-weather-details">
-                            <span class="day">Monday</span>
-                            <span class="time">20:03</span>,
-                            <span class="status">clear sky</span>
+                            <span id="day"></span>
+                            <span id="time"></span>
+                            <span id="status"></span>
                             <br>
-                            Humidity:<strong><span id="humidity">80</span>%</strong>,
-                            Wind:<strong><span id="wind">4.12</span>km/h</strong>
+                            Humidity:<strong><span id="humidity"></span></strong>
+                            Wind:<strong><span id="wind"></span></strong>
                         </p>
                     </div>
 
                     <div class="temp-details">
-                        <div class="icon">
-                            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png"
-                                class="weather-app-icon">
+                        <div class="icon" id="icon">
                         </div>
-                        <span class="temp">12</span>
+                        <span class="temp" id="temp"></span>
                         <span class="unit">°C</span>
                     </div>
                 </div>
